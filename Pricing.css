@@ -1,0 +1,365 @@
+#overview{
+    background-color: #00B5AD;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+#sub_heading{
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight:700;
+    line-height:24px;
+    text-decoration:none solid rgb(51, 71, 91)
+}
+
+#small_heading{
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight:400;
+    line-height:24px;
+    text-decoration:none solid rgb(255 , 255, 255)
+}
+#Plans{
+    margin-top: 30px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+}
+#plan{
+    background-color: white;
+    display: inline;
+    padding: 25px;
+    margin-top: 50px;
+    font-weight:500;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(51, 71, 91);
+    text-align:center;
+    text-indent:0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size:16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid #068e87 ;
+    border-left: 2px solid #068e87 ;
+    border-right: 1px solid #068e87;
+}
+.mytabs label{
+    background-color: white;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-size:16px;
+    font-weight:500;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(51, 71, 91);
+    text-align:center;
+    text-indent:0px;
+    padding: 20px 50px;
+}
+.mytabs label:hover{
+    color: #068e87;
+    border: #068e87 ;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs .tab{
+    width: 100%;
+    order: 1;
+    display: none;
+}
+.mytabs input[type="radio"]:checked + label + .tab{
+    display: block;
+}
+.mytabs input[type="radio"]:checked + label{
+    background-color: #E5F5F8;
+    border-bottom: 5px solid rgb(51, 71, 91);
+}
+
+/* ---------------------------------Page 1----------------------------------------------------------- */
+
+#start{
+    font-family: helvetica,  arial,  sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 50px 20px;
+}
+#start p{
+    font-size: 14px;
+    text-align: center;
+}
+#start h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.start_button{    
+    /* take button from here---------------------------------------------------------- */
+    background-color: #FF8F73;
+    padding: 20px;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.start_button:hover{
+    background-color: #eaac9d;
+}
+
+#table_box{
+    border: 0px solid black;
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    -ms-transform-origin-y: 20px;
+}
+.table_head{
+    padding: 12px 20px;
+
+}
+
+.table_head h3{
+    font-weight:700;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    text-decoration:none solid rgb(2, 41, 80);
+    text-align:start;
+    text-indent:0px;
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:RGB(51, 71, 91);
+    text-align: center;
+    line-height:24px;
+}
+.tc{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.tc p{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    padding-left: 0px;
+
+}
+.tc p::before{
+    content: url('https://i.ibb.co/gPRd4cd/tick.png');
+    position:relative; /*or absolute*/
+    top: 5px;
+    right: 6px;
+}
+#features{
+    margin-top: 90px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features p{
+    font-weight: 600;
+    line-height:24px;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size: 16px;
+    color: #007A8C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table{
+    border: 1.5px solid rgb(232, 226, 226)
+}
+
+.blob_content{
+    background-image:url(https://i.ibb.co/nBsHLTG/blob.png);
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    border:1px solid white;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.blob_content>h1{
+    margin-top: 120px;
+    color:#33475B;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+
+}
+#blob_table{
+    border: 0px solid green;
+    width:80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.blob_tc{
+    margin-top: 20px;
+    border: 0px solid purple;
+    width: 100%;
+}
+.blob_tc h4{
+    font-size:16px;
+    color: #33475B;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.blob_tc p{
+    font-size:15px;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight: 400;
+}
+
+.iconimage{
+    margin-top: 0px;
+    height: 50px;
+    border: 0px solid red;
+}
+.iconimage img{
+   width:fit-content;
+   height: 35px;
+   padding-bottom: 0px;
+   padding-top:10px
+
+}
+.blob_tc:first-child .iconimage img{
+    height:40px
+}
+
+.contact p{
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size:16.1px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    line-height:28.98px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight:600;
+    font-style:normal;
+    font-variant:normal;
+}
+#coval{
+    border:1px solid #CDD7E2;
+    border-radius: 30px;
+    margin:auto;
+    margin-bottom: 50px;
+    width: fit-content;
+    padding:100px;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: RGB(3, 124, 142);
+
+}
+
+
+
+
+.dropbtn {
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    padding:10px 4px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: none;
+
+}
+
+.dropbtn:hover{
+    color: #007A8C;
+}
+
+.dropdown {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    /* overflow: auto; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.dropdown-content p {
+color: black;
+padding: 0px 8px;
+font-size: 15px;
+text-decoration: none;
+display: block;
+}
+
+.show {
+    display: block;
+    background-color: none;
+}
+.dropdown>button div{
+    width: 5%;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 30px;
+}
+.dropdown>button img{
+    width: 30px; 
+    height: 30px;
+    display: inline; 
+    padding-top: 0px;
+    background-color: transparent;
+}
+#hard-list{
+    background-image:url(https://i.ibb.co/wd4Bh9Q/bottom-blob.png);
+    background-size: cover;
+    margin-top: 50px;
+    padding: 5px;
+    border:0px solid black;
+    margin-left:45px;
+    width: 75%;
+    border: 0px solid black;
+    margin: auto;
+    /* transform: scaleX(.9); */
+    /* background-color: aqua; */
+    line-height: 30px;
+}
+#hard-list h2{
+    text-align: center;
+}
