@@ -1,0 +1,53 @@
+.image{
+    width: 200px;
+    margin-left: 530px;
+    margin-top: 30px;
+}
+.already{
+    text-align: center;
+    font-size:18px;
+    margin-top: 20px;
+}
+#container{
+    text-align:start;
+    font-size:20px;
+    width: 500px;
+    height: 400px;
+    margin-left: 400px;
+}
+.we{
+    color: #56646d;
+    margin-top: 30px;
+}
+#loginPassword{
+    width: 500px;
+    background-color: #f5f8fa;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #d5dee8;
+}
+#loginemail{
+    width: 500px;
+    background-color: #f5f8fa;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid#d5dee8;
+}
+.e{
+    color: teal;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.div{
+    margin-top: 20px;
+}
+#loginbtn{
+    width: 510px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 0px;
+    margin-bottom: 30px;
+    background-color: #eaf0f6;
+    color: #b0c1d4;
+}
