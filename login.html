@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <link rel="icon" href="https://static.hsappstatic.net/StyleGuideUI/static-3.270/img/sprocket/favicon-32x32.png" />
     <link rel="stylesheet" href="login.css">
 </head>
@@ -33,7 +34,30 @@
             <button id="loginbtn">Log in</button>
         </div>
         <hr>
+        <div id="my-signin2"></div>
+        <p class="p">©2022 HubSpot, Inc. All Rights Reserved.</p>
+        <p class="q">Privacy Policy</p>
     </div>
+    <script>
+         function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 510,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 </body>
 
 </html>
@@ -70,4 +94,6 @@
         window.location.href = "./index.html";
     })
 
+   
 </script>
+
