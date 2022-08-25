@@ -125,6 +125,11 @@
 }
 .start_button:hover{
     background-color: #eaac9d;
+    cursor: pointer;
+}
+
+#features p{
+    cursor: pointer;
 }
 
 #table_box{
@@ -280,22 +285,30 @@
 
 }
 
+#phone_number::before {
+    content: url("https://i.ibb.co/3fkqq42/phone-1.png");
+    margin-right: 10px;
+}
+
 
 
 
 .dropbtn {
-    color: black;
+    color:#03353c;
     border: none;
     cursor: pointer;
     background-color: transparent;
-    width: 100%;
+    width: 80%;
     display: flex;
-    padding:10px 4px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding:14px 10px;
+    margin: 8px auto;
+    font-size: 14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
     align-items: center;
     border: none;
-
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #D8E0E9;
 }
 
 .dropbtn:hover{
@@ -316,8 +329,12 @@
     min-width: 160px;
     /* overflow: auto; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 0px;
+
+    padding: 0px 150px;
     overflow-x: hidden;
+    line-height:24px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .dropdown-content p {
@@ -330,7 +347,6 @@ display: block;
 
 .show {
     display: block;
-    background-color: none;
 }
 .dropdown>button div{
     width: 5%;
@@ -338,6 +354,7 @@ display: block;
     margin-top: 0px;
     padding-top: 0px;
     height: 30px;
+    background-color: transparent;
 }
 .dropdown>button img{
     width: 30px; 
@@ -348,7 +365,8 @@ display: block;
 }
 #hard-list{
     background-image:url(https://i.ibb.co/wd4Bh9Q/bottom-blob.png);
-    background-size: cover;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
     margin-top: 50px;
     padding: 5px;
     border:0px solid black;
@@ -363,3 +381,256 @@ display: block;
 #hard-list h2{
     text-align: center;
 }
+#finale{
+    width: 60%;
+    margin:auto;
+    margin-top:150px;
+    margin-bottom: 50px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+#start_2 h2{
+    text-align: center;
+    font-size:32px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin:30px auto 20px auto;
+}
+#start_2 h2::before{
+    content: url("https://static.hsappstatic.net/ui-addon-upgrades/static-9.7033/js/img/SalesHub_Icon.svg");
+    margin-right: 10px;
+    line-height:24px;
+}
+
+#start_2 p{
+    text-align: center;
+    font-weight:400;
+    font-size:14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    color: RGB(51, 71, 91);
+}
+
+#table_box2{
+    border: 0px solid black;
+    display: flex;
+    width: 92%;
+    flex-direction: row;
+    margin: auto;
+    -ms-transform-origin-y: 20px;
+}
+.table_head2{
+    border: 0px solid red;
+
+}
+
+.table_head2 h2{
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    text-decoration:none solid rgb(2, 41, 80);
+    text-align:start;
+    text-indent:0px;
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91);
+    text-align: center;
+    line-height:24px;
+}
+#one_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Starter.svg");
+    margin-right:5px;
+}
+#two_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Pro.svg");
+    margin-right:5px;
+}
+#three_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Ent.svg");
+    margin-right:5px;
+}
+.tc2{
+    border: 0px solid red;
+    margin-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+.tc2 p{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    padding-left: 0px;
+
+}
+.tc2 p::before{
+    content: url('https://i.ibb.co/gPRd4cd/tick.png');
+    position:relative; /*or absolute*/
+    top: 5px;
+    right: 6px;
+}
+#features_first{
+    margin-top: 180px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features3{
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+    margin-top: 437px;
+}
+#features2{
+    margin-top: 100px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features2 p,#features_first p,#features3 p{
+    font-weight: 600;
+    line-height:24px;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size: 16px;
+    color: #007A8C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.table2{
+    border: 1.5px solid rgb(232, 226, 226);
+    width:34%
+}
+
+
+
+#js_part>p{
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height:0px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#strike{
+    text-decoration: line-through;
+}
+#price_screen{
+    display: flex;
+    width: min-content;
+    height:40px;
+    margin: auto;
+    padding: auto;
+    border: 0px solid red;
+    align-items: center;
+    margin-top: 4px;
+}
+#inputing{
+    width:60px;
+    height:30px;
+    display: block;
+    border: 2px solid #007A8C;
+    border-radius: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+#input_users{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#user_question{
+    color:#068e87;
+    margin-top: 22px;
+}
+#strike_p{
+    margin-top: 4px;
+}
+#user_question:hover,#sub_text_small:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color: #045d58;
+}
+
+
+.sales_button{
+    background-color: #FF8F73;
+    padding: 20px;
+    width: 85%;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#sub_text_small{
+    color:RGB(0, 145, 174);
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    line-height:18px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#sub_text_smalln{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:18px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color:RGB(51, 71, 91)
+}
+
+.sub_text_big{
+    font-size:15px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color: RGB(0, 145, 174);
+    font-weight:700;
+    margin-left: 35px;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;  
+}
+
+#final_box{
+    border: 1.5px solid rgb(232, 226, 226);
+    width: 91.8%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.ticks{
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: RGB(51, 71, 91);
+
+}
+  .ticks::before{
+  content: url("https://i.ibb.co/gPRd4cd/tick.png");
+  position:relative; /*or absolute*/
+  top: 5px;
+  right: 6px;
+}
+  #bold_plan{
+  position: relative;
+  top: 7.5px;
+  right: 6px;
+  font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: RGB(51, 71, 91);
+}
+
