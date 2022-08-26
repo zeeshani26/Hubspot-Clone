@@ -1,0 +1,870 @@
+#overview{
+    background-color: #00B5AD;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+#sub_heading{
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight:700;
+    line-height:24px;
+    text-decoration:none solid rgb(51, 71, 91)
+}
+
+#small_heading{
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight:400;
+    line-height:24px;
+    text-decoration:none solid rgb(255 , 255, 255)
+}
+#Plans{
+    margin-top: 30px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+}
+#plan{
+    background-color: white;
+    display: inline;
+    padding: 25px;
+    margin-top: 50px;
+    font-weight:500;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(51, 71, 91);
+    text-align:center;
+    text-indent:0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size:16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid #068e87 ;
+    border-left: 2px solid #068e87 ;
+    border-right: 1px solid #068e87;
+}
+.mytabs label{
+    background-color: white;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-size:16px;
+    font-weight:500;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgb(51, 71, 91);
+    text-align:center;
+    text-indent:0px;
+    padding: 20px 50px;
+}
+.mytabs label:hover{
+    color: #068e87;
+    border: #068e87 ;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs .tab{
+    width: 100%;
+    order: 1;
+    display: none;
+}
+.mytabs input[type="radio"]:checked + label + .tab{
+    display: block;
+}
+.mytabs input[type="radio"]:checked + label{
+    background-color: #E5F5F8;
+    border-bottom: 5px solid rgb(51, 71, 91);
+}
+
+/* ---------------------------------Page 1----------------------------------------------------------- */
+
+#start{
+    font-family: helvetica,  arial,  sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 50px 20px;
+}
+#start p{
+    font-size: 14px;
+    text-align: center;
+}
+#start h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.start_button{    
+    /* take button from here---------------------------------------------------------- */
+    background-color: #FF8F73;
+    padding: 20px;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.start_button:hover{
+    background-color: #eaac9d;
+    cursor: pointer;
+}
+
+#features p{
+    cursor: pointer;
+}
+
+#table_box{
+    border: 0px solid black;
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    -ms-transform-origin-y: 20px;
+}
+.table_head{
+    padding: 12px 20px;
+
+}
+
+.table_head h3{
+    font-weight:700;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    text-decoration:none solid rgb(2, 41, 80);
+    text-align:start;
+    text-indent:0px;
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:RGB(51, 71, 91);
+    text-align: center;
+    line-height:24px;
+}
+.tc{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.tc p{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    padding-left: 0px;
+
+}
+.tc p::before{
+    content: url('https://i.ibb.co/gPRd4cd/tick.png');
+    position:relative; /*or absolute*/
+    top: 5px;
+    right: 6px;
+}
+#features{
+    margin-top: 90px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features p{
+    font-weight: 600;
+    line-height:24px;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size: 16px;
+    color: #007A8C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table{
+    border: 1.5px solid rgb(232, 226, 226)
+}
+
+.blob_content{
+    background-image:url(https://i.ibb.co/nBsHLTG/blob.png);
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    border:1px solid white;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.blob_content>h1{
+    margin-top: 120px;
+    color:#33475B;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+
+}
+#blob_table{
+    border: 0px solid green;
+    width:80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.blob_tc{
+    margin-top: 20px;
+    border: 0px solid purple;
+    width: 100%;
+}
+.blob_tc h4{
+    font-size:16px;
+    color: #33475B;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.blob_tc p{
+    font-size:15px;
+    line-height:24px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight: 400;
+}
+
+.iconimage{
+    margin-top: 0px;
+    height: 50px;
+    border: 0px solid red;
+}
+.iconimage img{
+   width:fit-content;
+   height: 35px;
+   padding-bottom: 0px;
+   padding-top:10px
+
+}
+.blob_tc:first-child .iconimage img{
+    height:40px
+}
+
+.contact p{
+    border: 0px solid black;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size:16.1px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    line-height:28.98px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight:600;
+    font-style:normal;
+    font-variant:normal;
+    color:#33475B
+}
+#coval{
+    border:1px solid #CDD7E2;
+    border-radius: 30px;
+    margin:auto;
+    margin-bottom: 50px;
+    width: fit-content;
+    padding:100px;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: RGB(3, 124, 142);
+
+}
+
+#phone_number::before {
+    content: url("https://i.ibb.co/3fkqq42/phone-1.png");
+    margin-right: 10px;
+}
+
+
+
+
+.dropbtn {
+    color:#03353c;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 80%;
+    display: flex;
+    padding:14px 10px;
+    margin: 8px auto;
+    font-size: 14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    align-items: center;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #D8E0E9;
+}
+
+.dropbtn:hover{
+    color: #007A8C;
+}
+
+.dropdown {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    /* overflow: auto; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    padding: 0px 150px;
+    overflow-x: hidden;
+    line-height:24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdown-content p {
+color: black;
+padding: 0px 8px;
+font-size: 15px;
+text-decoration: none;
+display: block;
+}
+
+.show {
+    display: block;
+}
+.dropdown>button div{
+    width: 5%;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 30px;
+    background-color: transparent;
+}
+.dropdown>button img{
+    width: 30px; 
+    height: 30px;
+    display: inline; 
+    padding-top: 0px;
+    background-color: transparent;
+}
+#hard-list{
+    background-image:url(https://i.ibb.co/wd4Bh9Q/bottom-blob.png);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 5px;
+    border:0px solid black;
+    margin-left:45px;
+    width: 75%;
+    border: 0px solid black;
+    margin: auto;
+    /* transform: scaleX(.9); */
+    /* background-color: aqua; */
+    line-height: 30px;
+}
+#hard-list h2{
+    text-align: center;
+}
+#finale{
+    width: 60%;
+    margin:auto;
+    margin-top:150px;
+    margin-bottom: 50px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+#start_2 h2{
+    text-align: center;
+    font-size:32px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin:30px auto 20px auto;
+    color: RGB(51, 71, 91);
+}
+#sales_pic::before{
+    content: url("https://static.hsappstatic.net/ui-addon-upgrades/static-9.7033/js/img/SalesHub_Icon.svg");
+    margin-right: 10px;
+    line-height:24px;
+}
+
+#start_2 p{
+    text-align: center;
+    font-weight:400;
+    font-size:14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    color: RGB(51, 71, 91);
+}
+
+#table_box2{
+    border: 0px solid black;
+    display: flex;
+    width: 92%;
+    flex-direction: row;
+    margin: auto;
+    -ms-transform-origin-y: 20px;
+}
+.table_head2{
+    border: 0px solid red;
+
+}
+
+.table_head2 h2{
+    font-weight:400;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    text-decoration:none solid rgb(2, 41, 80);
+    text-align:start;
+    text-indent:0px;
+    font-family :"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91);
+    text-align: center;
+    line-height:24px;
+}
+#one_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Starter.svg");
+    margin-right:5px;
+}
+#two_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Pro.svg");
+    margin-right:5px;
+}
+#three_star::before{
+    content:url("https://static.hsappstatic.net/pricing-pages-unified-ui/static-1.13603/js/img/productIcons/SalesHub_Ent.svg");
+    margin-right:5px;
+}
+.tc2{
+    border: 0px solid red;
+    margin-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+.tc2 p{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: start;
+    padding-left: 0px;
+
+}
+.tc2 p::before{
+    content: url('https://i.ibb.co/gPRd4cd/tick.png');
+    position:relative; /*or absolute*/
+    top: 5px;
+    right: 6px;
+}
+#features_first{
+    margin-top: 180px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features3{
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+    margin-top: 437px;
+}
+#features2{
+    margin-top: 100px;
+    text-align: center;
+    border-top: 1.5px solid rgb(232, 226, 226);
+}
+#features2 p,#features_first p,#features3 p, #free_tools_features{
+    font-weight: 600;
+    line-height:24px;
+    letter-spacing:normal;
+    word-spacing:0px;
+    font-size: 16px;
+    color: #007A8C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#features2 p:hover,#features_first p:hover,#features3 :hover, #free_tools_features:hover{
+    text-decoration: underline;
+}
+
+.table2{
+    border: 1.5px solid rgb(232, 226, 226);
+    width:34%
+}
+
+
+
+#js_part>p{
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height:0px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#strike{
+    text-decoration: line-through;
+}
+#price_screen{
+    display: flex;
+    width: min-content;
+    height:40px;
+    margin: auto;
+    padding: auto;
+    border: 0px solid red;
+    align-items: center;
+    margin-top: 4px;
+}
+#inputing{
+    width:60px;
+    height:30px;
+    display: block;
+    border: 2px solid #007A8C;
+    border-radius: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+#input_users{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#user_question{
+    color:#068e87;
+    margin-top: 22px;
+}
+#strike_p{
+    margin-top: 4px;
+}
+#user_question:hover,#sub_text_small:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color: #045d58;
+}
+
+
+.sales_button{
+    background-color: #FF8F73;
+    padding: 20px;
+    width: 85%;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+.sales_button:hover{
+    cursor: pointer;
+    background-color: #ffcbbe;
+}
+
+#sub_text_small{
+    color:RGB(0, 145, 174);
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    line-height:18px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#sub_text_smalln{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:18px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color:RGB(51, 71, 91)
+}
+
+.sub_text_big{
+    font-size:15px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color: RGB(0, 145, 174);
+    font-weight:700;
+    margin-left: 35px;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;  
+}
+
+#final_box{
+    border: 1.5px solid rgb(232, 226, 226);
+    width: 91.8%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.ticks{
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: RGB(51, 71, 91);
+
+}
+  .ticks::before{
+  content: url("https://i.ibb.co/gPRd4cd/tick.png");
+  position:relative; /*or absolute*/
+  top: 5px;
+  right: 6px;
+}
+  #bold_plan{
+  position: relative;
+  top: 7.5px;
+  right: 6px;
+  font-family: "Avenir Next W02", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: RGB(51, 71, 91);
+}
+
+#free_tools{
+    border: 1px solid rgb(232, 226, 226);
+    width: 91.9%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#free_tools_head{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+#free_tools_head p{
+    font-size:24px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91);
+    font-weight:400;
+    padding: 0px;
+}
+.no_back_btn{
+    border: 1px solid #FF7A59;
+    border-radius: 4px;
+    color: #FF7A59;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+}
+.no_back_btn:hover{
+    cursor: pointer;
+    background-color: #fcf3ee;
+}
+#free_tools>p{
+    padding-left: 40px;
+    margin-top: 0px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight:400;
+    font-size:14px;
+    color:RGB(51, 71, 91);
+    padding-bottom: 20px;
+}
+#free_tools_final{
+    display: flex;
+    border-top: 1px solid rgb(232, 226, 226);
+    width: 94%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#free_tools_features{
+    margin-top: 16px;
+    margin-left: 40px;
+}
+#first_tick{
+    padding-left: 1px;
+}
+#image_info1{
+    display:flex;
+    border: 0px solid rgb(232, 226, 226);
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+#image_1{
+    width: 50%;
+    border: 0px solid black;
+    height:370px;
+    margin: auto;
+}
+#image_1 img{
+    width: 100%;
+    height: 100%;
+}
+#text_1{
+    width: 46%;
+    border: 0px solid blue;
+    padding-top: 50px;
+}
+#info1_head{
+    font-size: 20px;
+    color:RGB(51, 71, 91);
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+#small_list{
+    padding-left: 16px;
+    line-height: 30px;
+    font-size:14px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91);
+    font-weight:400;
+}
+
+#btnlearn{
+    border-radius: 4px;
+    background-color: #253445;
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    border: 0px;
+    display: block;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+#btnlearn:hover{
+    cursor: pointer;
+    background-color: #466180;
+}
+#image_info2{
+    display: flex;
+    border: 0px solid rgb(232, 226, 226);
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+#image_2{
+    width: 100%;
+    border: 0px solid black;
+    margin: auto;
+    padding-right: 50px;
+}
+#image_2 img{
+    width: 95%;
+    height: 800px;
+}
+#text_2{
+    border: 0px solid blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;    
+}
+#text_box{
+    line-height: normal;
+}
+#pre_info{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: RGB(81, 111, 144);
+    line-height: 0px;
+}
+#info2_head{
+    font-size: 30px;
+    color:RGB(51, 71, 91);
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 4px;
+    line-height: 0px;
+    padding-bottom: 10px;
+}
+#info2{
+    line-height: 24px;
+    color:RGB(51, 71, 91);
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight: 400;
+}
+#icon_container{
+    display: flex;
+    width: 100%;
+}
+#icon_container{
+    text-align:center
+}
+.icons>h3{
+    font-size: 18px;
+    padding-right: 3px;
+    /* border: 1px solid green; */
+    width: 98.8%;
+    margin-bottom: 10px;
+}
+.icons img{
+    background-color: transparent;
+    border: 0px solid black;
+    display: block;
+    margin: auto;
+}
+#second_finale{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#second_finale div{
+    width: 65%;
+}
+#second_finale h1{
+    font-size: 32px;
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91)
+}
+#second_finale h2{
+    margin-right: 170px;
+    margin-top: 45px;
+    color:RGB(51, 71, 91)
+}
+#second_finale h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #00B5AD;
+}
+
+#service{
+    font-family:"Avenir Next W02", Helvetica, Arial, sans-serif;
+    color:RGB(51, 71, 91);
+    text-align: center;
+    font-size:32px;
+    font-weight: 600;
+    margin:30px auto 20px auto;
+}
+#service::before{
+    content: url("https://static.hsappstatic.net/ui-addon-upgrades/static-9.7120/js/img/ServiceHub_Icon.svg");
+    margin-right: 10px;
+}
+
