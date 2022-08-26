@@ -71,7 +71,7 @@
         let loginemail = document.getElementById("loginemail").value;
         let loginPass = document.getElementById("loginPassword").value;
 
-        let flag = false;
+        let flag = true;
         for (let i = 0; i < loginArr.length; i++) {
             if (loginArr[i].email == loginemail && loginArr[i].password == loginPass) {
                 flag = true;
@@ -80,18 +80,18 @@
 
         if (flag == true) {
             alert("Login Successful!")
-            window.location.href = "./index.html";
+            window.location.href = "home.html";
         }
         else {
             alert("Login Failed!");
         }
     })
-
+   
     document.getElementById('gotocreataccountpage').addEventListener("click", () => {
-        window.location.href = "./signup.html"
+        window.location.href = "signup.html"
     })
     document.querySelector("#LoginHomeLogin>div:first-child").addEventListener("click", () => {
-        window.location.href = "./index.html";
+        window.location.href = "home.html";
     })
 
    
