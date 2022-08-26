@@ -68,6 +68,10 @@
     text-align:center;
     text-indent:0px;
     padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    width: 26.681%;
+    z-index: 1;
 }
 .mytabs label:hover{
     color: #068e87;
@@ -177,6 +181,7 @@
     position:relative; /*or absolute*/
     top: 5px;
     right: 6px;
+    z-index: -1;
 }
 #features{
     margin-top: 90px;
@@ -322,6 +327,7 @@
     padding: 0px;
     overflow-x: hidden;
     background-color: none;
+    z-index: 0;
 }
 
 .dropdown-content {
@@ -336,6 +342,7 @@
     line-height:24px;
     font-size: 14px;
     font-weight: 400;
+    z-index: 0;
 }
 
 .dropdown-content p {
@@ -471,6 +478,7 @@ display: block;
     position:relative; /*or absolute*/
     top: 5px;
     right: 6px;
+    z-index: -1;
 }
 #features_first{
     margin-top: 180px;
@@ -631,6 +639,7 @@ display: block;
   position:relative; /*or absolute*/
   top: 5px;
   right: 6px;
+  z-index: -1;
 }
   #bold_plan{
   position: relative;
