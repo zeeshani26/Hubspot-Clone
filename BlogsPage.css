@@ -5,7 +5,7 @@
     padding:0;
 }
 #container{
-    width:88%;
+    width:100%;
     height:40px;
     background: #fff;
     position:fixed;
@@ -48,13 +48,13 @@
     cursor: pointer;
     border-radius: 7px;
     font-weight: 500;
-    margin-right: 0;
+    margin-right:10rem;
     transition:   transform 1s;
 }
 #container button:hover{
     background-color:orangered;
     text-decoration: underline;
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 nav{
     width:100%;
@@ -93,6 +93,9 @@ nav ul li a{
      font-size: 20px;
      font-weight: 700;
      letter-spacing: 1px;  
+}
+nav ul li a i{
+    font-size: 28px;
 }
 nav ul li a:hover{
     text-decoration: underline;
@@ -484,7 +487,7 @@ transform: scale(1.03);
     margin:1rem;
     display: block;
     font-weight:500;
-    line-height: 1.32rem;
+    line-height: 2rem;
     color:#2e475d;
     font-family:"Lexend Deca",sans-serif;  
     box-sizing: border-box;
@@ -757,3 +760,140 @@ transform: scale(1.03);
     color:#fff;
     transform: scale(1.03);
 }
+
+footer{
+    width:100%;
+    background-color: #213343;
+    color: #fff;
+    margin-top: 50px;
+    font-family:" Lexend Deca",sans-serif;
+}
+
+.footer{
+   
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #7691ad;
+}
+
+.foot1{
+    width:48%;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin:2rem 1rem;
+   padding:1rem 1rem;
+   
+   
+}
+.foot1 div{
+    width:48%;
+
+}
+.foot2{
+    width:48%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2rem 1rem;
+    padding:2rem 1rem;
+
+}
+
+.foot2 div{
+    width:30%;
+}
+ 
+.footer h2{
+    line-height: 1.6;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    box-sizing: border-box;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.footer p{
+    color: #b6c7d6;
+    padding: 1rem 0;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
+    
+    box-sizing: border-box;
+
+    cursor: pointer;
+    transition:0.3s ease;
+    
+}
+
+
+.footer p:hover{
+ text-decoration: underline;
+ transform:scale(1.01)
+}
+footer #icon{
+   box-sizing: border-box;
+   margin-left: 550px;
+}
+footer i{
+    font-size: 28px;
+    text-align: center;
+    padding:1rem;
+
+}
+
+footer #logo2{
+    margin:auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
