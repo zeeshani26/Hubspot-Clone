@@ -527,7 +527,8 @@ display: block;
     font-weight: 400;
     font-size: 14px;
 }
-#strike{
+#strike1, #strike2, #strike3,#strike4,#strike5,#strike6{
+
     text-decoration: line-through;
 }
 #price_screen{
@@ -846,6 +847,7 @@ display: block;
     justify-content: space-between;
     margin-right: 100px;
     margin-top: 100px;
+    margin-left: 200px;
 }
 #second_finale div{
     width: 65%;

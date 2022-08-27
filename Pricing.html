@@ -200,8 +200,7 @@
                     <h1>Start growing today with HubSpot’s free tools.</h1>
                 </div>
                 <button class="start_button">Get Started Free</button> 
-        </div>
- 
+        </div> 
         </div>
         <input type="radio" id="sales" name="my_tabs" checked="checked"/>
         <label for="sales">Sales</label>
@@ -216,11 +215,11 @@
                     <div id="js_part">
                         <p>Starts at</p>
                         <div id="price_screen">
-                            <h2>$</h2><h2 id="display_price">45</h2><h2>/mo</h2>
+                            <h2>$</h2><h2 id="display_price1">45</h2><h2>/mo</h2>
                         </div>
-                        <p id="strike_p">billed at <span id="strike">$600</span> $540/yr</p>
+                        <p id="strike_p">billed at $<span id="strike1">600</span> $<span id="actual1">540</span>/yr</p>
                         <div id="input_users">
-                            <input type="number" value="2" id="inputing" min="2">
+                            <input type="number" value="2" onchange="price_change1(this.value)" oninput="price_change1(this.value)" id="inputing" min="2">
                             <p>Paid Users</p>
                         </div>
                         <p id="user_cost">2 paid users included. $23/month per additional user.</p>
@@ -279,11 +278,11 @@
                     <div id="js_part">
                         <p>Starts at</p>
                         <div id="price_screen">
-                            <h2>$</h2><h2 id="display_price">450</h2><h2>/mo</h2>
+                            <h2>$</h2><h2 id="display_price2">450</h2><h2>/mo</h2>
                         </div>
-                        <p id="strike_p">billed at <span id="strike">$6000</span> $5400/yr</p>
+                        <p id="strike_p">billed at $<span id="strike2">6000</span> $<span id="actual2">5400</span>/yr</p>
                         <div id="input_users">
-                            <input type="number" value="5" id="inputing" min="5">
+                            <input type="number" value="5"  onchange="price_change2(this.value)" oninput="price_change2(this.value)" id="inputing" min="5">
                             <p>Paid Users</p>
                         </div>
                         <p id="user_cost">5 paid users included. $90/month per additional user.</p>
@@ -350,11 +349,11 @@
                     <div id="js_part">
                         <p>Starts at</p>
                         <div id="price_screen">
-                            <h2>$</h2><h2 id="display_price">45</h2><h2>/mo</h2>
+                            <h2>$</h2><h2 id="display_price3">1200</h2><h2>/mo</h2>
                         </div>
-                        <p id="strike_p">billed at <span id="strike">$1200</span> $14,400/yr</p>
+                        <p id="strike_p">billed at $<span id="actual3">14,400</span>/yr</p>
                         <div id="input_users">
-                            <input type="number" value="10" id="inputing" min="10">
+                            <input type="number" value="10" onchange="price_change3(this.value)" oninput="price_change3(this.value)" id="inputing" min="10">
                             <p>Paid Users</p>
                         </div>
                         <p id="user_cost">10 paid users included. $120/month per additional user.</p>
@@ -462,36 +461,36 @@
             <div id="hard-list">
                 <h2>Frequently Asked Questions</h2>
                     <div class="dropdown">
-                        <button onclick="myFunction(1,1)" class="dropbtn"><div><img id="arrow1" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Are HubSpot’s free tools really free?</button>
-                        <div id="myDropdown1" class="dropdown-content"></div>
+                        <button onclick="myFunction2(1,1)" class="dropbtn"><div><img id="arrow7" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Are HubSpot’s free tools really free?</button>
+                        <div id="myDropdown7" class="dropdown-content"></div>
                         <div style="height:.2px"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="myFunction(2,2)" class="dropbtn"><div><img id="arrow2" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What are the limits of my free HubSpot account?</button>
-                        <div id="myDropdown2" class="dropdown-content"></div>
+                        <button onclick="myFunction2(2,2)" class="dropbtn"><div><img id="arrow8" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What are the limits of my free HubSpot account?</button>
+                        <div id="myDropdown8" class="dropdown-content"></div>
                         <div style="height: .8px"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="myFunction(3,3)" class="dropbtn"><div><img id="arrow3" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Does HubSpot's free tools integrate with my email?</button>
-                        <div id="myDropdown3" class="dropdown-content"></div>
+                        <button onclick="myFunction2(3,3)" class="dropbtn"><div><img id="arrow9" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Does HubSpot's free tools integrate with my email?</button>
+                        <div id="myDropdown9" class="dropdown-content"></div>
                         <div style="height: .8px"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="myFunction(4,4)" class="dropbtn"><div><img id="arrow4" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What is a user, and how many can I have with my free HubSpot account?</button>
-                        <div id="myDropdown4" class="dropdown-content"></div>
+                        <button onclick="myFunction2(4,4)" class="dropbtn"><div><img id="arrow10" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What is a user, and how many can I have with my free HubSpot account?</button>
+                        <div id="myDropdown10" class="dropdown-content"></div>
                         <div style="height: .8px"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="myFunction(5,5)" class="dropbtn"><div><img id="arrow5" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>How many contacts can I upload into my free HubSpot account?</button>
-                        <div id="myDropdown5" class="dropdown-content"></div>
+                        <button onclick="myFunction2(5,5)" class="dropbtn"><div><img id="arrow11" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>How many contacts can I upload into my free HubSpot account?</button>
+                        <div id="myDropdown11" class="dropdown-content"></div>
                         <div style="height: .8px"></div>
                     </div>
                     <div class="dropdown">
-                        <button onclick="myFunction(6,6)" class="dropbtn"><div><img id="arrow6" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What types of support are available to free HubSpot users?</button>
-                        <div id="myDropdown6" class="dropdown-content"></div>
+                        <button onclick="myFunction2(6,6)" class="dropbtn"><div><img id="arrow12" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What types of support are available to free HubSpot users?</button>
+                        <div id="myDropdown12" class="dropdown-content"></div>
                         <div style="height: .8px"></div>
                     </div>
-            </div>
+                </div>
             <div id="second_finale">
                 <div>
                 <h1>Still have questions about how HubSpot's software can help your business?</h1></div>
@@ -512,11 +511,11 @@
                         <div id="js_part">
                             <p>Starts at</p>
                             <div id="price_screen">
-                                <h2>$</h2><h2 id="display_price">45</h2><h2>/mo</h2>
+                                <h2>$</h2><h2 id="display_price4">45</h2><h2>/mo</h2>
                             </div>
-                            <p id="strike_p">billed at <span id="strike">$600</span> $540/yr</p>
+                            <p id="strike_p">billed at $<span id="strike4">600</span> $<span id="actual4">540</span>/yr</p>
                             <div id="input_users">
-                                <input type="number" value="2" id="inputing" min="2">
+                                <input type="number" value="2" onchange="price_change4(this.value)" oninput="price_change4(this.value)" id="inputing" min="2">
                                 <p>Paid Users</p>
                             </div>
                             <p id="user_cost">2 paid users included. $23/month per additional user.</p>
@@ -575,11 +574,11 @@
                         <div id="js_part">
                             <p>Starts at</p>
                             <div id="price_screen">
-                                <h2>$</h2><h2 id="display_price">450</h2><h2>/mo</h2>
+                                <h2>$</h2><h2 id="display_price5">450</h2><h2>/mo</h2>
                             </div>
-                            <p id="strike_p">billed at <span id="strike">$6000</span> $5400/yr</p>
+                            <p id="strike_p">billed at $<span id="strike5">6000</span> $<span id="actual5">5400</span>/yr</p>
                             <div id="input_users">
-                                <input type="number" value="5" id="inputing" min="5">
+                                <input type="number" value="5"  onchange="price_change5(this.value)" oninput="price_change5(this.value)" id="inputing" min="5">
                                 <p>Paid Users</p>
                             </div>
                             <p id="user_cost">5 paid users included. $90/month per additional user.</p>
@@ -644,19 +643,19 @@
                     <div class="table2">
                         <div class="table_head2"><h2 id="three_star">Enterprise</h2></div>
                         <div id="js_part">
-                            <p>Starts at</p>
-                            <div id="price_screen">
-                                <h2>$</h2><h2 id="display_price">45</h2><h2>/mo</h2>
-                            </div>
-                            <p id="strike_p">billed at <span id="strike">$1200</span> $14,400/yr</p>
-                            <div id="input_users">
-                                <input type="number" value="10" id="inputing" min="10">
-                                <p>Paid Users</p>
-                            </div>
-                            <p id="user_cost">10 paid users included. $120/month per additional user.</p>
-                            <p id="user_question">How many paid users do I need?</p>
-                            <button class="sales_button">Talk to Sales</button>
+                        <p>Starts at</p>
+                        <div id="price_screen">
+                            <h2>$</h2><h2 id="display_price6">1200</h2><h2>/mo</h2>
                         </div>
+                        <p id="strike_p">billed at $<span id="actual6">14,400</span>/yr</p>
+                        <div id="input_users">
+                            <input type="number" value="10" onchange="price_change6(this.value)" oninput="price_change6(this.value)" id="inputing" min="10">
+                            <p>Paid Users</p>
+                        </div>
+                        <p id="user_cost">10 paid users included. $120/month per additional user.</p>
+                        <p id="user_question">How many paid users do I need?</p>
+                        <button class="sales_button">Talk to Sales</button>
+                    </div>
                         <p id="sub_text_smalln">Professional plus:</p>
                         <p class="sub_text_big">CUSTOMIZE TO MATCH YOUR BUSINESS</p>
                         <div class="tc2">
@@ -758,36 +757,36 @@
                 <div id="hard-list">
                     <h2>Frequently Asked Questions</h2>
                         <div class="dropdown">
-                            <button onclick="myFunction(1,1)" class="dropbtn"><div><img id="arrow1" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Are HubSpot’s free tools really free?</button>
-                            <div id="myDropdown1" class="dropdown-content"></div>
+                            <button onclick="myFunction3(1,1)" class="dropbtn"><div><img id="arrow13" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Are HubSpot’s free tools really free?</button>
+                            <div id="myDropdown13" class="dropdown-content"></div>
                             <div style="height:.2px"></div>
                         </div>
                         <div class="dropdown">
-                            <button onclick="myFunction(2,2)" class="dropbtn"><div><img id="arrow2" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What are the limits of my free HubSpot account?</button>
-                            <div id="myDropdown2" class="dropdown-content"></div>
+                            <button onclick="myFunction3(2,2)" class="dropbtn"><div><img id="arrow14" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What are the limits of my free HubSpot account?</button>
+                            <div id="myDropdown14" class="dropdown-content"></div>
                             <div style="height: .8px"></div>
                         </div>
                         <div class="dropdown">
-                            <button onclick="myFunction(3,3)" class="dropbtn"><div><img id="arrow3" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Does HubSpot's free tools integrate with my email?</button>
-                            <div id="myDropdown3" class="dropdown-content"></div>
+                            <button onclick="myFunction3(3,3)" class="dropbtn"><div><img id="arrow15" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>Does HubSpot's free tools integrate with my email?</button>
+                            <div id="myDropdown15" class="dropdown-content"></div>
                             <div style="height: .8px"></div>
                         </div>
                         <div class="dropdown">
-                            <button onclick="myFunction(4,4)" class="dropbtn"><div><img id="arrow4" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What is a user, and how many can I have with my free HubSpot account?</button>
-                            <div id="myDropdown4" class="dropdown-content"></div>
+                            <button onclick="myFunction3(4,4)" class="dropbtn"><div><img id="arrow16" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What is a user, and how many can I have with my free HubSpot account?</button>
+                            <div id="myDropdown16" class="dropdown-content"></div>
                             <div style="height: .8px"></div>
                         </div>
                         <div class="dropdown">
-                            <button onclick="myFunction(5,5)" class="dropbtn"><div><img id="arrow5" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>How many contacts can I upload into my free HubSpot account?</button>
-                            <div id="myDropdown5" class="dropdown-content"></div>
+                            <button onclick="myFunction3(5,5)" class="dropbtn"><div><img id="arrow17" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>How many contacts can I upload into my free HubSpot account?</button>
+                            <div id="myDropdown17" class="dropdown-content"></div>
                             <div style="height: .8px"></div>
                         </div>
                         <div class="dropdown">
-                            <button onclick="myFunction(6,6)" class="dropbtn"><div><img id="arrow6" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What types of support are available to free HubSpot users?</button>
-                            <div id="myDropdown6" class="dropdown-content"></div>
+                            <button onclick="myFunction3(6,6)" class="dropbtn"><div><img id="arrow18" src="https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"></div>What types of support are available to free HubSpot users?</button>
+                            <div id="myDropdown18" class="dropdown-content"></div>
                             <div style="height: .8px"></div>
                         </div>
-                </div>
+                    </div>
                 <div id="second_finale">
                     <div>
                     <h1>Still have questions about how HubSpot's software can help your business?</h1></div>
