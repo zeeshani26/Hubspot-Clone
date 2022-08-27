@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <link rel="icon" href="https://static.hsappstatic.net/StyleGuideUI/static-3.270/img/sprocket/favicon-32x32.png" />
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <img class="image"
+        src="https://www.bing.com/th?id=OIP.Y4y3XoCaIkbsbKoyHJfB_QHaCJ&w=350&h=101&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2">
+    <p class="already">
+        Don't have an account? <span><a id="gotocreataccountpage" href="signup.html">Sign Up</a></span>
+    </p>
+    <div id="container">
+        <div class="we">Email address</div>
+        <input type="email" placeholder="Enter Email" name="email" id="loginemail" />
+        <div class="we">Password</div>
+        <div>
+            <input type="password" placeholder="Enter Password" id="loginPassword" />
+            <div class="e">Forgot my password</div>
+        </div>
+        <div class="div">
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me" id="remember_me"> Remember me
+            </label>
+        </div>
+        <div>
+            <button id="loginbtn">Log in</button>
+        </div>
+        <hr>
+        <div id="my-signin2"></div>
+        <p class="p">©2022 HubSpot, Inc. All Rights Reserved.</p>
+        <p class="q">Privacy Policy</p>
+    </div>
+    <script>
+         function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 510,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+
+</html>
+
+<script type="module">
+
+    let loginArr = JSON.parse(localStorage.getItem("signup")) || [];
+    // console.log(loginArr)
+
+    document.getElementById('loginbtn').addEventListener("click", () => {
+        let loginemail = document.getElementById("loginemail").value;
+        let loginPass = document.getElementById("loginPassword").value;
+
+        let flag = true;
+        for (let i = 0; i < loginArr.length; i++) {
+            if (loginArr[i].email == loginemail && loginArr[i].password == loginPass) {
+                flag = true;
+            }
+        }
+
+        if (flag == true) {
+            alert("Login Successful!")
+            window.location.href = "home.html";
+        }
+        else {
+            alert("Login Failed!");
+        }
+    })
+   
+    document.getElementById('gotocreataccountpage').addEventListener("click", () => {
+        window.location.href = "signup.html"
+    })
+    document.querySelector("#LoginHomeLogin>div:first-child").addEventListener("click", () => {
+        window.location.href = "home.html";
+    })
+
+   
+</script>
+

@@ -528,6 +528,7 @@ display: block;
     font-size: 14px;
 }
 #strike1, #strike2, #strike3,#strike4,#strike5,#strike6{
+
     text-decoration: line-through;
 }
 #price_screen{

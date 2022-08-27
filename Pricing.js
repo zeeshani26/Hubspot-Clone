@@ -257,7 +257,6 @@ function myFunction(j,i) {
         arrow6 = false;
     }
 }
-
 function myFunction2(j,i) {
     if(j==1){
         document.getElementById("myDropdown7").classList.toggle("show");
@@ -395,3 +394,4 @@ function myFunction3(j,i) {
         arrow6 = false;
     }
 }
+
