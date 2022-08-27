@@ -7,7 +7,9 @@
     width: auto;
     height: auto;
     background-image: linear-gradient(to right, #D74426,#FF5C35);
+    /* border: 1px solid red; */
     display: flex;
+    /* gap: 50px; */
     padding-top: 100px;
     padding-bottom: 50px;
     padding-left: 15%;
@@ -17,6 +19,7 @@
 }
 #main div:first-child{
     width: 45%;
+    /* border: 1px solid red; */
     margin: 0%;
     padding: 0%;
     
@@ -33,7 +36,11 @@
     border-radius: 3px;
 }
 #main div{
-    width: 50%; 
+
+    width: 50%;
+    /* border: 1px solid blue; */
+   
+   
 }
 
 #main p{
@@ -59,18 +66,19 @@
 }
 
 #mid-sec-1{
-    width: 55%;
+    width: 58%;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 37px;
     text-align: center;
     letter-spacing: 0.5px;
+    color: #2E4767;
 }
 #mid-sec-1 h1{
     font-size: 35px;
 }
 #mid-sec-1 p{
     margin-top: 40px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     line-height: 30px;
 
@@ -114,6 +122,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    color: #2E4767;
 }
 
 #mid-sec-2 div{
@@ -172,7 +181,7 @@
 }
 #lower-sec-1 div{
     width: 65%;
-   
+    color: #2E4767;
 }
 #lower-sec-1 div div{
   
@@ -184,6 +193,7 @@
 }
 
 #lower-sec-1 img{
+    /* height: 70%; */
     width: 30%;
 }
 
@@ -196,6 +206,7 @@
     height: auto;
     padding-left: 15%;
     padding-right: 15%;
+    color: #2E4767;
     display: flex;
     margin-top: 100px;
     align-items: center;
@@ -205,6 +216,7 @@
 }
 #lower-sec-2 div:first-child{
     width: 50%;
+    /* border: 1px solid blue; */
     line-height: 30px;
 }
 
@@ -246,8 +258,10 @@
 #main-sec-2{
     width: 67%;
     height: auto;
+    /* border: 1px solid red; */
     padding-left: 15%;
     padding-right: 15%;
+    /* padding-top: 10%; */
     padding-bottom: 7%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
