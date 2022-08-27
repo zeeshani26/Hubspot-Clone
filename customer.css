@@ -210,7 +210,7 @@
 }
 #community>a>div{
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 #community div:hover{
     border-color: #0091ae;
@@ -574,6 +574,7 @@
 }
 #icon>div{
     width: 100%;
+  
     height: auto;
     display: flex;
     text-align: center;
@@ -584,7 +585,11 @@
     text-align: center;
     margin: auto;
 }
-
+#icon>#title>div>p{
+    display: flex;
+    text-align: right;
+    margin: auto;
+}
 
 #title2>div{
     width: 20%;
