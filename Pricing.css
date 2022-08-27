@@ -182,6 +182,7 @@
     top: 5px;
     right: 6px;
     z-index: -1;
+
 }
 #features{
     margin-top: 90px;
@@ -640,6 +641,7 @@ display: block;
   top: 5px;
   right: 6px;
   z-index: -1;
+
 }
   #bold_plan{
   position: relative;
@@ -876,4 +878,3 @@ display: block;
     content: url("https://static.hsappstatic.net/ui-addon-upgrades/static-9.7120/js/img/ServiceHub_Icon.svg");
     margin-right: 10px;
 }
-
