@@ -236,7 +236,7 @@ function myFunction(j,i) {
         document.getElementById("arrow4").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow4 = true
     }
-    else if(i==4 && arrow3==true){
+    else if(i==4 && arrow4==true){
         document.getElementById("arrow4").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow4 = false;
     }
@@ -244,7 +244,7 @@ function myFunction(j,i) {
         document.getElementById("arrow5").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow5 = true;
     }
-    else if(i==5 && arrow3==true){
+    else if(i==5 && arrow5==true){
         document.getElementById("arrow5").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow5 = false;
     }
@@ -252,7 +252,7 @@ function myFunction(j,i) {
         document.getElementById("arrow6").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow6 = true
     }
-    else if(i==6 && arrow3==true){
+    else if(i==6 && arrow6==true){
         document.getElementById("arrow6").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow6 = false;
     }
@@ -305,7 +305,7 @@ function myFunction2(j,i) {
         document.getElementById("arrow10").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow4 = true
     }
-    else if(i==4 && arrow3==true){
+    else if(i==4 && arrow4==true){
         document.getElementById("arrow10").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow4 = false;
     }
@@ -313,7 +313,7 @@ function myFunction2(j,i) {
         document.getElementById("arrow11").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow5 = true;
     }
-    else if(i==5 && arrow3==true){
+    else if(i==5 && arrow5==true){
         document.getElementById("arrow11").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow5 = false;
     }
@@ -321,7 +321,7 @@ function myFunction2(j,i) {
         document.getElementById("arrow12").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow6 = true
     }
-    else if(i==6 && arrow3==true){
+    else if(i==6 && arrow6==true){
         document.getElementById("arrow12").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow6 = false;
     }
@@ -374,7 +374,7 @@ function myFunction3(j,i) {
         document.getElementById("arrow16").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow4 = true
     }
-    else if(i==4 && arrow3==true){
+    else if(i==4 && arrow4==true){
         document.getElementById("arrow16").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow4 = false;
     }
@@ -382,7 +382,7 @@ function myFunction3(j,i) {
         document.getElementById("arrow17").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow5 = true;
     }
-    else if(i==5 && arrow3==true){
+    else if(i==5 && arrow5==true){
         document.getElementById("arrow17").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow5 = false;
     }
@@ -390,7 +390,7 @@ function myFunction3(j,i) {
         document.getElementById("arrow18").src = "https://i.ibb.co/NjP5Tsj/Real.png"
         arrow6 = true
     }
-    else if(i==6 && arrow3==true){
+    else if(i==6 && arrow6==true){
         document.getElementById("arrow18").src = "https://i.ibb.co/C0RpK6Q/20140611-CBP-Icon-animation.jpg"
         arrow6 = false;
     }
