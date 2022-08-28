@@ -163,7 +163,10 @@
     border: none;
     border-radius: 3px;
 }
-
+#mid-sec-btn a{
+    text-decoration: none;
+    color: #ffff;
+}
 #mid-sec-2 div:hover{
     z-index: 1;
     transform: scale(1.01);

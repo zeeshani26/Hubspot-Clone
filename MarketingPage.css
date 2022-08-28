@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    width:100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #fff;
+    z-index: 95;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav>div:nth-child(2) i{
+    font-size: 40px;
+    margin:auto;
+    cursor: pointer;
+    padding-right: 2rem;
+}
+nav img{
+    margin:0.7rem;
+    padding:0.5rem;
+   
+}
+
+#container1{
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0;
+    background-color: #2d3e50;
+    border-radius:0.89rem;
+    margin:auto;
+    font-family:" Lexend Deca",sans-serif;
+    margin-top: 40px;
+ 
+}
+#container1 h1{
+    max-width: 40%;
+    font-size: 3rem;
+    line-height:5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: -1px 0 #33475b, 0 1px #33475b, 1px 0 #33475b, 0 -1px #33475b, 3px 3px 0 #ff7a59;
+    padding:0.5rem;
+    margin: 1rem;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+
+   
+}
+#container1 p{
+    max-width: 45%;
+    font-weight: 500; 
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.6666rem 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+#container1 button{
+    width: auto;
+    max-width: 80%;
+    padding: 1rem 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    background-color: #fff;
+    color: #33475b;
+    font-size:1rem;
+    cursor:pointer;
+}
+#container1 button:hover{
+    text-decoration: underline;
+    color:teal;
+
+}
+#container1 a{
+    text-decoration: none;
+}
+#container2{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff; 
+}
+#container2 div{
+    margin:1rem;
+    padding:1rem;
+}
+.num{
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 2.75rem;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#container3{
+   
+    background-color: #f5f8fa;
+    border-radius: 9px;
+    width: 95%;
+    margin:auto;
+    margin-top: 33px;
+}
+#container3 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #33475b;
+    line-height: 1.416em;
+    font-family:" Lexend Deca",sans-serif;
+    padding: 5rem;
+    text-align: center;
+}
+#container4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:70%;
+    margin: auto;
+    padding: auto;
+    margin-top: 3rem;
+}
+#container4 div{
+    width:30%;
+     border-radius: 9px;
+    border: 2px solid black;
+    height: 100%;
+    cursor: pointer;
+    transition:  0.4s ease;
+}
+#container4 div:hover{
+    transform: scale(1.01);
+    background-color:#2d3e50;
+    color: #fff;
+    border:3px solid #fff;
+}
+#container4 img{
+    width:100%;
+    background: #33475b;
+}
+#container4 h3{
+    font-size: 1.222rem;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor:pointer;
+    text-align: left;
+    font-family:" Lexend Deca",sans-serif;
+    padding-left: 1rem;
+    border-bottom: 2px solid #33475b;
+    margin:1rem 0.2rem;
+    
+}
+/*#container4 h3:hover{
+    color: #fff;
+}*/
+.cont4{
+   
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+}
+
+.cont5{
+    font-weight: 500;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+}
+footer{
+    width:99%;
+    background-color: #33475b;
+    color: #fff;
+    line-height: 1.625rem;
+    font-size: 0.8125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6666rem;
+    padding-bottom: 6rem;
+    margin-top: 33px;
+}
+footer>div:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family:" Lexend Deca",sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+footer>div:nth-child(2) i{
+font-size: 33px;
+margin: 1rem;
+padding: 0.5rem;
+cursor: pointer;
+}

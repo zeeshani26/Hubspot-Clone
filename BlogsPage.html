@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="BlogPage.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <title>HubSpot Blog</title>
+    <link rel="stylesheet" href="BlogsPage.css">
 </head>
 <body>
     <div id="container">
         <ul>
-            <li><a href="#">Enable High Contrast</a></li>
-            <li><a href="#">English</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-half-stroke"></i>Enable High Contrast</a></li>
+            <li><a href="#"><i class="fa-solid fa-earth-americas"></i>English</a></li>
             <li><a href="#">About HubSpot</a></li>
             <li><a href="#"Login></a></li>
-            <li><button><a href="#">Start free or get a demo</a></button></li>
+            <li><button><a href="signup.html">Start free or get a demo</a></button></li>
         </ul>
     </div>
 
@@ -35,7 +36,7 @@
 
             <li><a href="#">Resources</a></li>
 
-            <li><a href="#search">search</a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
 
             <li><a href="#">Hubspot Products</a></li>
 
@@ -112,7 +113,7 @@
     </div>
     <div>
     <h3>Subscribe via Email</h3>
-    <form>
+    <form id="form1">
 
    <ul>
     <li>
@@ -133,11 +134,11 @@
     </li>
    </ul>
    <label for="email" id="EA">Email Address</label>
-   <input type="email" id="email">
+   <input type="email" id="email" >
    <p>
     We're committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our privacy policy.
    </p>
-<input type="submit" id="submit" value="Subscribe">
+<input type="submit" id="submit" value="Subscribe" onclick="subscribe()">
     </form>
 
     </div>
@@ -147,7 +148,7 @@
 <div id="container3">
     <div>
    <h3> HubSpot's 2022 State of Marketing Report</h3>
-    <input type="submit" value="Get the Free Report" id="span">
+    <input type="submit" value="Get the Free Report" id="span" onclick="marketing()">
     </div>
     <div>
   <img src="https://blog.hubspot.com/hubfs/influencer-marketing-strategy-and-template.jpg"/>
@@ -293,7 +294,7 @@
     </div>
     <div>
         <p>I want the latest in...</p>
-        <form>
+        <form id="form1">
 
             <ul>
              <li>
@@ -323,16 +324,122 @@
               products, and services. You may unsubscribe from these communications at
                any time. For more information, check out our<span style="text-decoration:underline ;"> privacy policy.</span>
             </p>
-        
-            
-         
+         </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+        <div class="foot1">
+      
+            <div>
+                <h2>Popular Features</h2>
+                <p>Free Meeting Scheduler App</p>
+                <p>
+                    Social Media Tools
+                </p>
+                <p>
+                    Email Tracking Software
+                </p>
+                <p>Sales Email Automation</p>
+                <p>
+                    Ads Software
+                </p>
+                <p>Email Marketing Software</p>
+                <p>Lead Management Software</p>
+                <p>Pipeline Management Tools</p>
+            </div>
+            <div>
+                <p>Sales Email Templates</p>
+                <p>Help Desk Software</p>
+                <p>Free Online Form Builder</p>
+                <p>Free Chatbot Builder</p>
+                <p>Free Live Chat Software</p>
+                <p>Free Landing Page Builder</p>
+            </div>
+        </div>
+        <div class="foot2">
+            <div>
+    <h2>Free Tools</h2>
+    <p>Free Meeting Scheduler App</p>
+    <p>
+        Social Media Tools
+    </p>
+    <p>
+        Email Tracking Software
+    </p>
+    <p>Sales Email Automation</p>
+    <p>
+        Ads Software
+    </p>
+    <p>Email Marketing Software</p>
+    <p>Lead Management Software</p>
+
+    <p>Sales Email Templates</p>
+    
+            </div>
+            <div>
+    <h2>About us</h2>
+    <p>company</p>
+    <p>carrears</p>
+    <p>Management team</p>
+    <p>Hr team</p>
+    <p>Board of Directors</p>
+    <p>Investors Relation</p>
+    <p>Blogs</p>
+    <p>Tecnical team</p>
+    <p>Contact us</p>
+            </div>
+            <div>
+                <h2>Customers</h2>
+    <p>customers support</p>
+    <p>Join a local group</p>
+    <p>People</p>
+    
+    <h2>Partners</h2>
+    
+    <p>All Partner program</p>
+    <p>solution partner program</p>
+    <p>App partner program</p>
+    <p>HubSpot for startups</p>
+    <p>Affiliate program</p>
+            </div>
+        </div>
+       
 
     </div>
-</div>
+    <div id="icon">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <div id="logo2">
+        <img src="https://blog.hubspot.com/hubfs/WBZ-1165%20Global%20Nav%20Redesign/Wordmark-White.svg">
+        <p>Copyright © 2022 HubSpot, Inc.
+
+        </p>
+   
+    </div>
+   
+</footer>
 </body>
 </html>
 
 
 
 
+<script>
 
+   document.getElementById("form").addEventListener("submit",subscibe)
+
+   function subscribe(){
+    event.preventDefault()
+    alert("Thanks for Subsciption")
+   }
+   function marketing(){
+    window.location.href="MarketingPage.html"
+   }
+</script>
