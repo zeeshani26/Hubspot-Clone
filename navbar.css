@@ -201,13 +201,18 @@ nav li:hover #menu-res{
     margin-left: 335px;
 }
 #button button{
-    width: 170px;
+    width: 190px;
     background-color: #FF5C35;
     color: #fff;
     border: none;
     height: 30px;
     font-weight: 600;
     border-radius: 3px;
+    
+}
+#button a{
+    color: #fff;
+    font-size: 12px;
 }
 
 #button button:hover{
